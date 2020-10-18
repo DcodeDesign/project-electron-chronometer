@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Chronometer</title>
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-eval'; object-src 'self'"/>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+<div class="display-chrono">
+    <p>
+        <span id="heure">00</span> : <span id="minute">00</span> : <span id="seconde">00</span>
+    </p>
+</div>
+<div class="display-actions">
+    <button id="start">
+        <img src="play.svg" width="15" />
+    </button>
+    <button id="stop">
+        <img src="pause.svg" width="15" />
+    </button>
+    <button id="reset">
+        <img src="reset.svg" width="15" />
+    </button>
+</div>
+<script src="chrono.js"></script>
+</body>
+</html>

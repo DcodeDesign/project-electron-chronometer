@@ -1,0 +1,60 @@
+html, body {
+    margin:0;
+    padding:0;
+}
+
+body {
+    margin:0;
+    padding:0;
+    background: rgb(11,11,11);
+    background: linear-gradient(346deg, rgba(11,11,11,1) 0%, rgb(3, 3, 3) 58%, rgba(48,48,48,1) 100%);
+}
+
+.display-chrono {
+    text-align: center;
+    font-family: "Arial Black";
+    font-size: 35px;
+    color: #d0d0d0;
+}
+
+.display-actions {
+
+}
+
+button {
+    width:calc(100% * 0.33333);
+    background: transparent;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    float:left;
+    font-size: 16px;
+    margin: 0;
+    cursor: pointer;
+    font-family: "Arial";
+    outline: none;
+    border:none;
+    transition: all 0.5s ease-in-out;
+}
+
+button:disabled,
+button[disabled]{
+    opacity:0.2;
+    background-color: transparent;
+}
+
+button:hover{
+    background-color: #0c0c0c;
+}
+
+button:active {
+    outline: none;
+    border:none;
+}
+
+button:focus{
+    background-color: #181818;
+}

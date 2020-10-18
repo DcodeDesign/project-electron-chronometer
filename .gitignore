@@ -1,0 +1,4 @@
+# Project exclude paths
+/node_modules/
+/out/make/zip/darwin/x64/my-electron-app.app/Contents/Resources/app/node_modules/
+/out/my-electron-app-darwin-x64/chronometer.app/Contents/Resources/app/node_modules/
